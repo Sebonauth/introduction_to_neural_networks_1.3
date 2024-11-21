@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pioneers of Neural Networks and Their Contributions</title>
+    <title>The Origins and Evolution of Neural Networks - Review and Reflect</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,83 +17,48 @@
             margin-bottom: 20px;
             padding: 20px;
             background-color: #ffffff;
-            display: none; /* Initially hidden */
-            opacity: 0; /* Initially invisible for fade-in effect */
-            transition: opacity 0.5s ease-in; /* Fade-in effect */
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
         }
-        p {
+        h1, h3, h4 {
+            color: #333;
+            margin-top: 20px;
+        }
+        p, li {
             line-height: 1.6;
             color: #444;
             margin-bottom: 20px;
         }
-        .image-placeholder, .continue-button, .vocab-section, .test-your-knowledge, .why-it-matters {
-            text-align: left;
-            margin: 0 20px;
+        ul {
+            padding-left: 20px;
         }
-        .image-placeholder img {
+        .image-placeholder, .interactive-placeholder, .continue-button, .vocab-section, .why-it-matters, .test-your-knowledge, .faq-section {
+            text-align: left;
+        }
+        .image-placeholder img, .interactive-placeholder img {
             max-width: 100%;
             height: auto;
             border-radius: 5px;
         }
-        .vocab-section {
-            background-color: #f0f8ff;
+        .faq-section {
+            background-color: #fffbea;
             padding: 20px;
             border-radius: 8px;
+            margin-top: 20px;
         }
-        .vocab-section h3 {
-            color: #1e90ff;
+        .faq-section h3 {
+            color: #ffcc00;
             font-size: 0.75em;
             margin-bottom: 5px;
             margin-top: 5px;
         }
-        .vocab-section h4 {
+        .faq-section h4 {
             color: #000;
             font-size: 0.9em;
             margin-top: 10px;
             margin-bottom: 8px;
         }
-        .vocab-term {
-            font-weight: bold;
-            color: #1e90ff;
-        }
-
-        /* Green Style for Test Your Knowledge Section */
-        .test-your-knowledge {
-            background-color: #e6ffe6; /* Light green background */
-            padding: 20px;
-            border-radius: 8px;
-        }
-        .test-your-knowledge h3 {
-            color: #28a745; /* Dark green heading */
-            font-size: 0.75em;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-        .test-your-knowledge h4 {
-            color: #000;
-            font-size: 0.9em;
-            margin-top: 10px;
-            margin-bottom: 8px;
-        }
-        .test-your-knowledge p {
-            margin-bottom: 15px;
-        }
-
-        /* Green Style Check Button */
-        .check-button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 15px;
-            color: #ffffff;
-            background-color: #28a745; /* Green background */
-            border-radius: 5px;
-            text-decoration: none;
-            cursor: pointer;
-            border: none;
-            font-size: 1em;
-        }
-
-        /* Continue Button */
         .continue-button {
             display: inline-block;
             padding: 10px 20px;
@@ -106,107 +72,52 @@
     </style>
 </head>
 <body>
-
-    <!-- Introduction Section -->
-    <section id="section1">
+    <section id="section29">
         <div class="image-placeholder">
-            <img src="path-to-collage-image.jpg" alt="Collage of influential figures in neural network history, including McCulloch, Pitts, Rosenblatt, Minsky, Papert, and Hinton">
+            <img src="/placeholder.svg?height=300&width=800" alt="Montage showing the evolution of neural networks from mathematical models to modern applications">
         </div>
-        <p>Throughout the evolution of neural networks, several key individuals made significant contributions that propelled the field forward.</p>
-        <div class="continue-button" onclick="showNextSection(2)">Continue</div>
-    </section>
-
-    <section id="section2">
-        <p>Warren McCulloch and Walter Pitts laid the theoretical groundwork by modeling neurons using logical operations, showing that neural activity could be represented mathematically.</p>
-        <div class="continue-button" onclick="showNextSection(3)">Continue</div>
-    </section>
-
-    <section id="section3">
-        <p>Frank Rosenblatt built on this foundation by creating the perceptron, which could adjust its weights based on input data to improve its performance—a process we now recognize as learning.</p>
-        <div class="continue-button" onclick="showNextSection(4)">Continue</div>
-    </section>
-
-    <section id="section4">
-        <p>However, in 1969, Marvin Minsky and Seymour Papert published a critical analysis titled <em>"Perceptrons,"</em> highlighting the limitations of single-layer perceptrons.</p>
         
-        <div class="vocab-section">
-            <h3>Build Your Vocab</h3>
-            <h4>Linear Separability</h4>
-            A problem is linearly separable if there exists a straight line (or hyperplane in higher dimensions) that can separate the input data into classes without error.
+        <h1>Review and Reflect</h1>
+
+        <p>As we wrap up this journey through the history of neural networks, let's take a moment to appreciate the persistence of the researchers who kept the field alive during the AI winter. Their belief in the potential of neural networks, even when others had given up, led to one of the most significant technological revolutions in history.</p>
+
+        <p>In our next lesson, we'll dive deeper into how these networks actually work, starting with the fascinating parallel between biological and artificial neurons.</p>
+
+        <div class="faq-section">
+            <h3>Frequently Asked!</h3>
+            <h4>Do neural networks really work like the human brain?</h4>
+            <p>Not exactly. While inspired by the brain, artificial neural networks are highly simplified models. They share some basic principles - like neurons that activate based on input from other neurons - but the details of how biological neurons work and learn is far more complex and still not fully understood.</p>
         </div>
-        <div class="continue-button" onclick="showNextSection(5)">Continue</div>
+
+        <div class="continue-button" onclick="showNextSection(30)">Continue</div>
     </section>
 
-    <section id="section5">
-        <p>They pointed out that perceptrons could not solve problems that weren't linearly separable, such as the XOR (exclusive or) problem.</p>
+    <section id="section30">
+        <p>We've traveled from the early dreams of McCulloch and Pitts, through the rise and fall of the perceptron, the long AI winter, and finally to the deep learning revolution. Along the way, we've seen how three key ingredients - data, computing power, and algorithms - came together to transform artificial intelligence.</p>
 
-        <div class="test-your-knowledge">
-            <h3>Test Your Knowledge</h3>
-            <h4>Why couldn't perceptrons solve the XOR problem?</h4>
-            <p>
-                <label><input type="radio" name="xor-answer" value="option1"> Because XOR requires multiple layers to be represented.</label><br>
-                <label><input type="radio" name="xor-answer" value="option2"> Because perceptrons can only handle linear functions.</label><br>
-                <label><input type="radio" name="xor-answer" value="option3"> Because XOR is a nonlinear function.</label><br>
-                <label><input type="radio" name="xor-answer" value="option4"> All of the above.</label>
-            </p>
-            <button class="check-button" onclick="checkAnswer()">Check</button>
-
-            <div id="result" style="display: none; margin-top: 10px; color: #28a745; font-weight: bold;">Correct!</div>
-            <div id="explanation" style="display: none; margin-top: 10px;">
-                <h4>Explanation</h4>
-                <p>The correct answer is <strong>All of the above.</strong><br>Perceptrons are linear classifiers and cannot solve nonlinear problems like XOR, which requires a network with at least one hidden layer.</p>
-            </div>
-        </div>
-        <div class="continue-button" onclick="showNextSection(6)">Continue</div>
-    </section>
-
-    <section id="section6">
-        <p>Their critique led to decreased funding and interest in neural network research, ushering in an era known as the "AI winter."</p>
+        <p>Next time you unlock your phone with your face or ask Siri a question, remember: you're using technology that researchers spent decades developing, refusing to give up even when success seemed impossible.</p>
     </section>
 
     <script>
         // Show the first section initially
-        document.getElementById("section1").style.display = "block";
-        document.getElementById("section1").style.opacity = "1"; // Make the first section visible
+        document.getElementById("section29").style.display = "block";
+        document.getElementById("section29").style.opacity = "1";
 
-        // Function to show the next section with fade-in and then scroll to it
         function showNextSection(nextSectionId) {
             const currentButton = event.target;
             const nextSection = document.getElementById("section" + nextSectionId);
             
-            // Hide the clicked button
             currentButton.style.display = "none";
             
-            // Show the next section with a fade-in effect
             nextSection.style.display = "block";
             setTimeout(() => {
-                nextSection.style.opacity = "1"; // Fade in the section
+                nextSection.style.opacity = "1";
             }, 10);
 
-            // Scroll to the new section after it fades in
             setTimeout(() => {
                 nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }, 500); // Delay scrolling until fade-in completes
-        }
-
-        // Function to check the selected answer
-        function checkAnswer() {
-            const selectedAnswer = document.querySelector('input[name="xor-answer"]:checked');
-            const result = document.getElementById("result");
-            const explanation = document.getElementById("explanation");
-            const checkButton = document.querySelector(".check-button");
-
-            if (selectedAnswer) {
-                checkButton.style.display = "none"; // Hide the check button after clicking
-
-                if (selectedAnswer.value === "option4") {
-                    result.style.display = "block"; // Show "Correct!" if the correct answer is selected
-                } else {
-                    explanation.style.display = "block"; // Show explanation if the answer is incorrect
-                }
-            }
+            }, 500);
         }
     </script>
-
 </body>
 </html>
